@@ -92,9 +92,10 @@ Nope.  If you are actively working on something, you probably want to develop lo
 
 Beginners:
 - Download Anaconda
-- Open and develop the Notebook in Jupyter
-- Use git (as above) to push changes
-- See:[How to use the R programming language in Jupyter Notebook](https://docs.anaconda.com/navigator/tutorials/r-lang/)
+- Install the R kernal for Jupyter, see:[How to use the R programming language in Jupyter Notebook](https://docs.anaconda.com/navigator/tutorials/r-lang/)
+- Open and develop the Notebook in Jupyter (R)
+- Use git as above to push changes
+
 
 Binder has to build your environment.  If new libraries are needed for script modifications, you may need to change the runtime, or install new packages.  That is what these files do:
 - runtime.txt
