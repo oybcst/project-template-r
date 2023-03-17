@@ -70,7 +70,7 @@ Then, I modify things while in Binder, `Save Notebook`, `Download`, and I downlo
 ```
 git status
 ```
-Check the status.  The index.ipynb is probably the only thing that changed.  And if it *should* have changed but *didn't*, you might want to `Save` and `Download` again.  Then:
+Check the status.  The index.ipynb is probably the only thing that changed.  And if it *should* have changed but *didn't*, you might want to `Save` and `Download` again.  Check the download path.  Then:
 ```
 - git add .
 - git status
