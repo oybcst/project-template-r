@@ -18,25 +18,25 @@ This example repo uses R.  ([Using Python? Check Here.](https://github.com/OyBcS
 Starting from the [main branch of the repo](https://github.com/OyBcSt/project-template-r), click the green button `Use this template` then choose `Create a new respository`.
 
 Choose the Owner
-- If your project is NOAA RESTORE, please change 'Owner' to 'OyBcSt'.  
+- If your project is NOAA RESTORE, please change `Owner` to `OyBcSt`.  
 - If you don't see OyBcSt as an option, Contact [Lisa](mailto:lllowe@ncsu.edu) to be added as a collaborator.  
 
 Choose the Repository name
-- Choose something that indicates the 'type' of project, e.g., hydro, climate, fisheries, etc.
+- Choose something that indicates the *type* of project, e.g., hydro, climate, fisheries, etc.
 
 Modify the README
-- Change the README.md.  Click the pencil and edit it directly to describe your project
+- Change the **README.md**.  Click the pencil, and edit it directly to describe your project.
 - Change the address for the Binder button...remember, the button is pointing at the *template*.  See below.
 - [For Reference: GitHub markdown syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 How to get the Binder button code:
-- Go to https://mybinder.org (in a new tab)
-- Paste the URL to *your new repo*
-- Put `index.ipynb` in the box for File
-- Where it says 'Expand to see...', click and copy the Binder button code
+- Go to https://mybinder.org (in a new tab).
+- Paste the URL to *your new repo*.
+- Put `index.ipynb` in the box for File.
+- Where it says `Expand to see...`, click and copy the Binder button code.
 
 Test the Binder button:
-- Click the modified Binder button, and verify a working Notebook is being launched from *your new repo*
+- Click the modified Binder button, and verify a working Notebook is being launched from *your new repo*.
 
 ## How to modify the repo
 
@@ -46,7 +46,7 @@ Much can be edited directly from GitHub (clicking pencils).  Edits to the Notebo
 To add local files back to the repo, go to the GitHub page, click `Add file`, then `Upload files`.
 
 ### A bit of `git`
-If you do lots of changes, that will get old fast. 
+If you do lots of changes, `Upload files` will get old fast. 
 
 Personally, I clone the repo locally, from Mac terminal:
 ```
@@ -54,11 +54,11 @@ git clone [https://address/reponame]
 cd reponame
 ```
 
-Then, I modify things in Binder, `Save Notebook`, `Download`, and I download to `reponame`.  Then, from my Mac terminal, I do
+Then, I modify things while in Binder, `Save Notebook`, `Download`, and I download to `reponame`.  Then, from my Mac terminal, I do
 ```
 git status
 ```
-Check: index.ipynb is probably the only thing that changed.  And if it should have changed but didn't, you might want to `Save` and `Download` again.  Then:
+Check the status.  The index.ipynb is probably the only thing that changed.  And if it **should** have changed but **didn't**, you might want to `Save` and `Download` again.  Then:
 ```
 - git add .
 - git status
