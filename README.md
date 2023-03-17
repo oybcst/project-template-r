@@ -30,8 +30,12 @@ Choose the Owner
 Choose the Repository name
 - Choose something that indicates the *type* of project, e.g., hydro, climate, fisheries, etc.
 
-Modify the README
-- Change the **README.md**.  Click the pencil, and edit it directly to describe your project.
+## Modify the contents
+
+README, scripts, and plain text files can be edited directly from GitHub by clicking the pencil icon, then click the green `Commit changes` button at the bottom of the page.
+
+First:
+- Go to **README.md**.  Click the pencil, and edit it directly to describe your project.
 - Change the address for the Binder button...remember, the button is pointing at the *template*.  See below.
 - [For Reference: GitHub markdown syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
@@ -46,9 +50,9 @@ Test the Binder button:
 
 
 
-## Modify the new repo
+## Modify the Notebook
 
-Much can be edited directly from GitHub (clicking pencils).  Edits to the Notebook while in Binder are not saved to GitHub.  When modifying the Notebook in Binder, periodically `Save Notebook`, then `Download` the file locally.  Then the local files must be added back to GitHub.
+Edits to the Notebook while in Binder are not saved to GitHub.  When modifying the Notebook in Binder, periodically `Save Notebook`, then `Download` the file locally.  Then the local files must be added back to GitHub.
 
 ### No *git* for me please!
 To add local files back to the repo, go to the GitHub page, click `Add file`, then `Upload files`.
@@ -83,7 +87,7 @@ If you were modifying the **README.md** online, you will need to pull those in b
 
 
 
-### Do I have to use Binder to develop the Notebook?
+## Do I have to use Binder to develop the Notebook?
 Nope.  If you are actively working on something, you probably want to develop locally.
 
 Beginners:
@@ -104,6 +108,6 @@ Not Beginners:
 **Contact me if you need help with the environment.**. We can develop some extra documentation based on what folks are having problems with.
 
 
-
+# Thank you!
 *This work is funded by the National Oceanic and Atmospheric Administration's RESTORE Science Program under award NA19NOS4510194.*
 
