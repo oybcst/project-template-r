@@ -92,7 +92,7 @@ If your Notebook is published and established, I think it is safer to modify thi
 
 If you are developing a *new* Notebook, or need to make substantial changes, then I suggest...
 
-Beginners:
+For beginners:
 - Download Anaconda
 - Install the R kernal for Jupyter, see:[How to use the R programming language in Jupyter Notebook](https://docs.anaconda.com/navigator/tutorials/r-lang/)
 - Open and develop the Notebook in Jupyter with R as kernal (see above link)
@@ -104,7 +104,7 @@ Binder has to build your environment.  If new libraries are needed for script mo
 - runtime.txt
 - install.R
 
-Not Beginners:
+For Not Beginners:
 - It is better to install miniconda, create a yaml file with dependencies, then `conda env create`, for each project.  
 - [See this for more about Conda](https://hpc.ncsu.edu/Software/Apps.php?app=Conda)
 - Unfortunately, I did not test running a Notebook with **R** using miniconda...but we'll figure it out.
