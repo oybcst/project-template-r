@@ -70,7 +70,7 @@ Then, I modify things while in Binder, `Save Notebook`, `Download`, and I downlo
 ```
 git status
 ```
-Check the status.  The index.ipynb is probably the only thing that changed.  And if it **should** have changed but **didn't**, you might want to `Save` and `Download` again.  Then:
+Check the status.  The index.ipynb is probably the only thing that changed.  And if it *should* have changed but *didn't*, you might want to `Save` and `Download` again.  Then:
 ```
 - git add .
 - git status
@@ -106,7 +106,7 @@ Not Beginners:
 - [See this for more about Conda](https://hpc.ncsu.edu/Software/Apps.php?app=Conda)
 - Unfortunately, I did not test running a Notebook with **R** using miniconda...but we'll figure it out.
 
-**Contact me if you need help with the environment.**. We can develop some extra documentation based on what folks are having problems with.
+**Contact me if you need help with the environment.** We can develop some extra documentation based on what folks are having problems with.
 
 
 # Thank you!
