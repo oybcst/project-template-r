@@ -1,5 +1,6 @@
 # Template: Interactive Notebook in R 
 
+## About the Template
 This is a template for creating a Jupyter Notebook in R, created for NOAA RESTORE's:
 
 **Oysters, Blue Crabs, and Spotted Seatrout:** ***Building Resilience to Environmental Trends and Variability in the Gulf of Mexico***
@@ -17,9 +18,10 @@ This example repo uses R.  ([Using Python? Check Here.](https://github.com/OyBcS
 
 
 
-## How to use the template to make your own repo
+# Instructions
 
-Starting from the landing page of the repo, click the green button `Use this template` then choose `Create a new respository`.
+## Create new repo from template
+Starting from the landing page of this repo, click the green button `Use this template` then choose `Create a new respository`.
 
 Choose the Owner
 - If your project is NOAA RESTORE, please change `Owner` to `OyBcSt`.  
@@ -44,7 +46,7 @@ Test the Binder button:
 
 
 
-## How to modify the repo
+## Modify the new repo
 
 Much can be edited directly from GitHub (clicking pencils).  Edits to the Notebook while in Binder are not saved to GitHub.  When modifying the Notebook in Binder, periodically `Save Notebook`, then `Download` the file locally.  Then the local files must be added back to GitHub.
 
@@ -100,6 +102,7 @@ Not Beginners:
 - Unfortunately, I did not test running a Notebook with **R** using miniconda...but we'll figure it out.
 
 **Contact me if you need help with the environment.**. We can develop some extra documentation based on what folks are having problems with.
+
 
 
 *This work is funded by the National Oceanic and Atmospheric Administration's RESTORE Science Program under award NA19NOS4510194.*
