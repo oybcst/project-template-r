@@ -34,7 +34,7 @@ Choose the Repository name
 
 README, scripts, and plain text files can be edited directly from GitHub by clicking the pencil icon, then click the green `Commit changes` button at the bottom of the page.
 
-First:
+Change the README:
 - Go to **README.md**.  Click the pencil, and edit it directly to describe your project.
 - Change the address for the Binder button...remember, the button is pointing at the *template*.  See below.
 - [For Reference: GitHub markdown syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
