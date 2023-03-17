@@ -13,6 +13,8 @@ Using GitHub and Binder, share your work:
 
 This example repo uses R.  ([Using Python? Check Here.](https://github.com/OyBcSt/project-template-python))
 
+
+
 ## How to use the template to make your own repo
 
 Starting from the landing page of the repo, click the green button `Use this template` then choose `Create a new respository`.
@@ -37,6 +39,8 @@ How to get the Binder button code:
 
 Test the Binder button:
 - Click the modified Binder button, and verify a working Notebook is being launched from *your new repo*.
+
+
 
 ## How to modify the repo
 
@@ -72,6 +76,8 @@ If you were modifying the **README.md** online, you will need to pull those in b
 ```
 
 **Contact me if you need help with git**.  We can develop some training and documentation based on what folks are having problems with.
+
+
 
 ### Do I have to use Binder to develop the Notebook?
 Nope.  If you are actively working on something, you probably want to develop locally.
