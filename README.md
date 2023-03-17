@@ -66,7 +66,7 @@ git clone [https://address/reponame]
 cd reponame
 ```
 
-Then, I modify things while in Binder, `Save Notebook`, `Download`, and I download to `reponame`.  Then, from my Mac terminal, I do
+Then, I modify things while in Binder, `Save Notebook`, `Download`, and I download to `reponame`.  Then, from Mac terminal, I do
 ```
 git status
 ```
@@ -88,13 +88,16 @@ If you were modifying the **README.md** online, you will need to pull those in b
 
 
 ## Do I have to use Binder to develop the Notebook?
-Nope.  If you are actively working on something, you probably want to develop locally.
+If your Notebook is published and established, I think it is safer to modify things *within Binder* so you don't accidentally break your environment.  
+
+If you are developing a *new* Notebook, or need to make substantial changes, then I suggest...
 
 Beginners:
 - Download Anaconda
 - Install the R kernal for Jupyter, see:[How to use the R programming language in Jupyter Notebook](https://docs.anaconda.com/navigator/tutorials/r-lang/)
-- Open and develop the Notebook in Jupyter (R)
-- Use git as above to push changes
+- Open and develop the Notebook in Jupyter with R as kernal (see above link)
+- Find index.ipynb, or create a new file, modify, and save.
+When the Notebook is ready, use `git` as above to push changes.  Note: you can have several Notebooks in one GitHub repo.  
 
 
 Binder has to build your environment.  If new libraries are needed for script modifications, you may need to change the runtime, or install new packages.  That is what these files do:
