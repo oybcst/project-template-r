@@ -15,7 +15,7 @@ This example repo uses R.  ([Using Python? Check Here.](https://github.com/OyBcS
 
 ## How to use the template to make your own repo
 
-Starting from the [main branch of the repo](https://github.com/OyBcSt/project-template-r), click the green button `Use this template` then choose `Create a new respository`.
+Starting from the landing page of the repo, click the green button `Use this template` then choose `Create a new respository`.
 
 Choose the Owner
 - If your project is NOAA RESTORE, please change `Owner` to `OyBcSt`.  
