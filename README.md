@@ -42,10 +42,10 @@ Test the Binder button:
 
 Much can be edited directly from GitHub (clicking pencils).  Edits to the Notebook while in Binder are not saved to GitHub.  When modifying the Notebook in Binder, periodically `Save Notebook`, then `Download` the file locally.  Then the local files must be added back to GitHub.
 
-### No `git` for me please!
+### No *git* for me please!
 To add local files back to the repo, go to the GitHub page, click `Add file`, then `Upload files`.
 
-### A bit of `git`
+### A bit of *git*
 If you do lots of changes, `Upload files` will get old fast. 
 
 Personally, I clone the repo locally, from Mac terminal:
@@ -66,7 +66,7 @@ Check the status.  The index.ipynb is probably the only thing that changed.  And
 - git push
 ```
 
-If you were modifying the README.md online, you will need to pull those in before pushing out your changes:
+If you were modifying the **README.md** online, you will need to pull those in before pushing out your changes:
 ```
 - git pull
 ```
