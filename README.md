@@ -9,6 +9,8 @@ Using GitHub and Binder, share your work:
 - Add Lat/Lon information to make an interactive map of the study area and for station data
 - Do plots and analysis
 
+Click the Binder button below to open the sample Notebook.
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OyBcSt/project-template-r/HEAD?labpath=index.ipynb)
 
 This example repo uses R.  ([Using Python? Check Here.](https://github.com/OyBcSt/project-template-python))
