@@ -94,7 +94,7 @@ If you are developing a *new* Notebook, or need to make substantial changes, the
 
 For beginners:
 - Download Anaconda
-- Install the R kernal for Jupyter, see:[How to use the R programming language in Jupyter Notebook](https://docs.anaconda.com/navigator/tutorials/r-lang/)
+- Install the R kernal for Jupyter, see: [How to use the R programming language in Jupyter Notebook](https://docs.anaconda.com/free/navigator/tutorials/r-lang/)
 - Open and develop the Notebook in Jupyter with R as kernal (see above link)
 - Find index.ipynb, or create a new file, modify, and save.
 When the Notebook is ready, use `git` as above to push changes.  Note: you can have several Notebooks in one GitHub repo.  
