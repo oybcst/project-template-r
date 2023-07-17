@@ -16,7 +16,7 @@ Click the Binder button below to open the sample Notebook.
 
 This example repo uses R.  ([Using Python? Check Here.](https://github.com/OyBcSt/project-template-python))
 
-
+**NOTE**: Binder takes a very long time to spin up for the first time when using R.  It should be faster the next time, if the image is still cached.
 
 # Instructions
 
